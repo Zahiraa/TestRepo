@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="Fichier_css.css">
+    </head>
+    <body>
+        <fieldset>
+            <table >
+                    <legend>Calcul de frais de transport de colis</legend>
+                    <tr>
+                        <td>N° de colis: </td>
+                        <td><input id="champ1" type="text" autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>Mode de transport: </td>
+                        <td><input id="EXP" type="radio" name="exp">Express
+                        <input type="radio" name="exp">Normal</td>
+                    </tr>
+                    <tr>
+                        <td>Distance: </td>
+                        <td><input id="champ2" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Poids: </td>
+                        <td><input id="champ3" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Cout Total: </td>
+                        <td><input id="champ4" type="text" placeholder="Cout Total ..."></td>
+                    </tr>
+                    
+              </table>
+            <div class="d1">
+                <button onclick="calc()">Calculer</button>
+                <input type="reset" value="annuler" />
+               
+            </div>
+        </fieldset>
+         <script type="text/javascript" src="Fichier_js.js"></script>
+    </body>
+</html>

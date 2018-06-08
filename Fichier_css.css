@@ -1,0 +1,69 @@
+fieldset {
+    width: 500px;
+    margin: 50px auto;
+    background-color: beige;
+    border-radius: 10px;
+    border: 50px solid #ACA;
+    opacity: 500;
+    padding: 20px;
+    text-shadow: 1px 1px 1px #000;
+    color: beige
+}
+
+legend {
+    background-color: #ACA;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ACA;
+    text-shadow: 1px 1px px #000;
+    text-align: center;
+    font-size: 30px
+}
+
+.d1{
+    width: 232px;
+    margin: auto
+}
+td:nth-child(1){
+    padding-right: 30px
+}
+button,
+input[type="reset"],
+input[type="button"] {
+    margin-top: 10px;
+    margin: 10px 4px 10px 4px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    color: #DDD;
+    text-shadow: 1px 1px 1px #000;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 100, 0.5);
+    color: rgba(0, 255, 100, 0.9);
+    text-shadow: 1px 1px 2px #000;
+    cursor: pointer
+}
+
+input[type="reset"]:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: red;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer
+}
+
+.imp:hover {
+    background-color: rgba(255, 100, 0, 0.5);
+    color: orange;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer
+}
+
+input[type="text"] {
+    width: 330px;
+    border-radius: 5px;
+    background-color: white;
+    outline: none
+}
